@@ -4,6 +4,7 @@ This is a project of a E-commerce website clone from the website https://bluemer
 
 TEAM: Together Everyone Achieves More
 
+
 1. Ujjwal Paul
 2. Priyanka Dhar
 3. Monojit Mondal
