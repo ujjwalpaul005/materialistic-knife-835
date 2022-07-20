@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+#header{
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 60%;
+    float: left;
+    color: rgb(173, 172, 172);
+    font-size: 13px;
+}
+#left>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#left>ul>li>img{
+    width: 250px;
+}
+#right{
+    width: 40%;
+    float: right;
+    font-size: 13px;
+}
+#right>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+#right>ul>li{
+    width: 40%;
+    list-style: none;
+    color: rgb(173, 172, 172);
+}
+#left2{
+margin-top: 30px;
+}
+#left2{
+list-style: none;
+}
+#navbar2>ul{
+text-align: center;
+margin: auto;
+width: 70%;
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+}
+#navbar2>ul>li{
+list-style: none;
+/* padding: 4px; */
+margin: 0 4px 0 4px;
+color: rgb(173, 172, 172);
+}
+li>i{
+padding: 8px;
+}
+.page{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#navbar2>ul>li:hover{
+cursor: pointer;
+border-bottom: 2px solid rgb(213, 209, 209);
+}
+#navbar2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ----------------------------page1------------------------- */
+#P-page1{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-around;
+}
+.P-page1Cls{
+padding: 12px;
+
+}
+.P-page1Cls>h2{
+font-size: 16px;
+font-weight: 100;
+text-align: left;
+}
+.P-page1Cls>ul>li{
+list-style: none;
+text-align: left;
+color: gray;
+margin: 14px 0 10px 0;
+font-size: 16px;
+}
+.P-page1Cls>ul>li:hover{
+cursor: pointer;
+color: rgb(77, 76, 76);
+}
+#P-box1{
+border-right: 1px solid gray;
+}
+#P-box1>h2~ul>li{
+margin: 20px 0 10px 0;
+}
+/* ---------------------------NEW!--------------------------------- */
+.page2{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page2{
+margin: auto;
+margin-left: 250px;
+width: 80%;
+display: flex;
+}
+#P-boxNew1{
+text-align: left;
+width: 20%;
+padding: 10px;
+}
+#P-boxNew1>ul>li{
+list-style: none;
+color: gray;
+padding: 10px 10px 10px 0;
+}
+#P-boxNew1>ul>li:hover{
+cursor: pointer;
+color: black;
+}
+#P-boxNew1>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+#P-boxNew2>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxNew2>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+}
+#P-boxNew2>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+#P-boxNew3>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxNew3>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+}
+#P-boxNew3>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+/* ---------------------------------BRANDS------------------------- */
+.page3{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page3{
+margin: auto;
+/* margin-left: 250px; */
+width: 80%;
+display: flex;
+justify-content: space-around;
+}
+
+#P-boxBrand1>h2{
+text-align: left;
+/* width: 20%; */
+padding: 10px;
+font-size: 14px;
+font-weight: 500;
+}
+#P-boxBrand1>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+margin: 12px 0 12px 0;
+}
+#P-boxBrand2>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxBrand2>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+margin: 12px 0 12px 0;
+}
+#P-boxBrand2>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+#P-boxBrand3>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxBrand3>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+margin: 12px 0 12px 0;
+}
+#P-boxBrand3>ul>li>h2{
+color: black;
+font-size: 14px;
+font-weight: 500;
+}
+#P-boxBrand4>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxBrand4>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+}
+#P-boxBrand4>ul>li>h2{
+color: black;
+font-size: 14px;
+font-weight: 500;
+}
+/* --------------------------EXPLORE-------------------------------- */
+.page4{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page4{
+margin: auto;
+width: 80%;
+display: flex;
+justify-content: space-around;
+}
+#P-boxExplore1>ul>li{
+text-align: left;
+/* width: 20%; */
+padding: 10px;
+font-size: 16px;
+font-weight: 100;
+list-style: none;
+}
+#P-boxExplore1>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+margin: 12px 0 12px 0;
+}
+#P-boxExplore2>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxExplore2>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+margin: 12px 0 12px 0;
+}
+#P-boxExplore2>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+#P-boxExplore3>ul{
+/* width: 40%; */
+padding: 10px 0 10px 10px;
+}
+#P-boxExplore3>ul>li{
+text-align: left;
+list-style: none;
+color: gray;
+margin: 12px 0 12px 0;
+}
+#P-boxExplore3>ul>li>h2{
+color: black;
+font-size: 16px;
+font-size: 15px;
+font-weight: 500;
+}
+/* ----------------------------Events----------------------------- */
+.page5{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page5{
+margin: auto;
+width: 50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+/* ----------------------------------BLUE------------------------- */
+.page6{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page6{
+margin: auto;
+width: 50%;
+display: flex;
+justify-content: space-around;
+/* align-items: center; */
+}
+#P-boxBlue1>ul>li>h2{
+font-size: 14px;
+}
+#P-boxBlue1>ul>li{
+list-style: none;
+margin: 15px;
+text-align: left;
+color: gray;
+}
+#P-boxBlue2>ul>li{
+list-style: none;
+text-align: left;
+color: gray;
+margin-top: 20px;
+}
+#P-boxBlue2>ul>li>h2{
+font-size: 14px;
+}
+/* --------------------------beauty--------------------------------- */
+.page7{
+position:fixed;
+text-align: center;
+margin: auto;
+width: 100%; 
+height: 450px; 
+/* background-color: aqua; */
+border-top:1px solid rgb(213, 209, 209);
+/* z-index: 2; */
+display: none;
+}
+#P-page7{
+margin: auto;
+width: 60%;
+display: flex;
+justify-content: space-between;
+
+}
+#P-boxBeauty1>ul>li>h2{
+font-size: 14px;
+}
+#P-boxBeauty1>ul>li{
+list-style: none;
+margin: 15px;
+text-align: left;
+color: gray;
+}
+#P-boxBeauty2>ul{
+margin-top: 20px;
+}
+#P-boxBeauty3>ul{
+margin-top: 20px;
+}
+#P-boxBeauty2>ul>li{
+list-style: none;
+text-align: left;
+color: gray;
+/* margin-top: 20px; */
+}
+#P-boxBeauty2>ul>li>h2{
+font-size: 14px;
+}
+#P-boxBeauty3>ul>li{
+list-style: none;
+text-align: left;
+color: gray;
+/* margin-top: 20px; */
+}
+#P-boxBeauty3>ul>li>h2{
+font-size: 14px;
+}
+/* --------------------search------------------------------------ */
+#P-search-Div{
+margin: auto;
+width: 100%;
+/* background-color: aqua; */
+display: flex;
+display: none;
+border-bottom: 1px solid gray;
+}
+#P-search-Div>ul>li:hover{
+cursor: pointer;
+}
+#P-search-Div>ul{
+text-align: center;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+#P-search-Div>ul>li{
+list-style: none;
+padding: 10px 0 10px 0;
+}
+#P-search_input{
+width: 800px;
+padding: 10px;
+margin-top: 10px;
+}
+#glass{
+font-size: 34px;
+color: gray;
+}
+#cross{
+font-size: 34px;
+color: gray;
+}
+#header{
+    position: sticky;
+    top: 0;
+    
+}
