@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 #navimu{
     height: 200px;
@@ -41,30 +47,13 @@ color: rgb(18,40,76);
  font-style: bold;
  box-shadow: 0 0 2rem rgb(0 0 0 / 13%)
 }
-#bhukal{
-    height: 350px;
 
-    margin-top: 5px;
-    display: flex;
-    gap: 20px;
-}
-#bhukal>div{
-
-width:24%;
-height: 100%;
-text-align: center;
-
-}
-#bhukal>div>img{
-    width: 100%;
-    height: 60%;
-}
 #Crimala{
     margin: auto;
     display: flex;
     height: 460px;
 
-    margin-top: 10px;
+    margin-top: 25px;
     width: 920px;
     cursor: pointer;
     gap: 5px;
@@ -270,10 +259,53 @@ font-size: 30px;
     border: 1px solid black;
     margin-top: 10px;
 }
+.row{
+    display: flex;
+   margin: auto;
+    gap: 10px;
+    width: 80%;
+    
+    height: 250px;
+    margin-top:-140px ;
+   
+}
+.ROkau{
+width: 25%;
+
+text-align: center;
+}
+.ROkau>img{
+    width: 100%;
+    height: 60%;
+
+}
+.ROkau>img+p{
+color: black;
+font-weight: 90;
+font-size: 16px;
 
 
 
+}
+
+.ROkau>p{
+    color: gray;
+    margin: 10px;
+    font-weight: 50;
+    font-size: 14px;
+}
+
+
+.slick-prev.slick-arrow::before{
+
+    background-color: black;
  
+    
+}
+ .slick-next.slick-arrow{
+    background-color: black;
+ }
+  
  
 
 
