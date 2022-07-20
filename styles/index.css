@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #293c5d;
+}
+
+#U-nav{
+    height: 50px;
+    background-color: aqua;
+}
+#U-hero{
+    position: relative;
+    left: 0%;
+    color: white;
+    overflow: hidden;
+}
+
+#U-hero-small{
+    display: none;
+    position: relative;
+    left: 0%;
+    color: white;
+    overflow: hidden;
+}
+
+#U-heroImg, #U-heroImg-t{
+    width: 100%;
+}
+
+#U-heroInfo{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 30%;
+    text-align: left;
+    color: white;
+    
+    
+    font-size: 1rem;
+    letter-spacing: .56px;
+    line-height: 25px;
+    
+}
+
+#U-heroInfo-t{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    margin: auto;
+    text-align: center;
+}
+
+#U-heroInfo > h4, #U-heroInfo-t > h4{
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#U-heroInfo > h2, #U-heroInfo-t > h2{
+    font-size: 200%;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.075;
+    margin-bottom: 15px;
+
+}
+
+#U-heroInfo > p, #U-heroInfo-t > p{
+    display: block;
+    margin: 0.5em 0;
+    font-weight: 300;
+    letter-spacing: .2px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#U-heroInfo-t > p{
+    padding: 0 10%;
+}
+
+#U-heroInfo > button, #U-heroInfo-t > button{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    color: inherit;
+
+    font-size: 16px;
+    letter-spacing: .43px;
+    line-height: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#U-heroButtons, #U-heroButtons-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    
+}
+
+#U-heroButtons > button, #U-heroButtons-t > button{
+    height: 10px;
+    width: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+#U-heroButtons > button:first-child, #U-heroButtons-t > button:first-child{
+    background-color: #293c5d;
+}
+
+
+
+
+#U-all_slide{
+    max-width: 100%;
+    /* background-color: #2f6dd8; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#U-all_slide > h2{
+    font-size: 28px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 20px;
+}
+.U-slider{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.U-slider .slick-next:before{
+    content: ">";
+    color: #293c5d;
+    font-size: 40px;
+    margin: 0;
+    /* margin-left: 20px; */
+}
+
+.U-slider .slick-prev:before{
+    content: "<";
+    color: #293c5d;
+    font-size: 40px;
+    margin: 0;
+    /* margin-left: 40px; */
+}
+
+.U-slider::-webkit-scrollbar{
+    height: 0px;
+}
+
+.U-card{
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.U-card > img{
+    width: 250px;
+    margin: auto;
+}
+
+
+#U-ocean{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f2e8e6;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20%;
+    text-align: center;
+}
+
+#U-ocean > h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+}
+#U-ocean > p{
+    margin: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+}
+#U-ocean_images > img{
+    width: 400px;
+}
+
+#U-ocean_images{
+    display: flex;
+    gap: 40px;
+}
+
+#U-ocean_product{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+}
+
+
+#U-ocean_product > h4{
+    font-size: 14px;
+    line-height: 24px;
+}
+#U-ocean_product > p{
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#U-hide{
+    display: none;
+}
+
+#U-alfresco{
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.U-blog{
+    text-align: center;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.U-blog > img{
+    width: 100%;
+    height: 70%;
+    margin: 0 0 20px;
+}
+
+.U-blog > h2{
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.U-blog > p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+
+}
+
+.U-blog > button{
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    border-bottom: 2px solid;
+}
+
+@media only screen and (max-width: 900px) {
+    #U-heroInfo{
+        top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+   #U-alfresco{
+       display: flex;
+       gap: 40px;
+       padding: 4%
+   }
+
+   .U-blog{
+    text-align: left;
+   }
+
+   .U-blog > p{
+    padding: 0;
+
+}
+
+}
+
+@media only screen and (max-width: 768px){
+    #U-ocean{
+        padding: 0;
+    }
+
+    #U-ocean_product{
+        display: none;
+    }
+
+    #U-hide{
+        display: block;
+        margin: 20px 0 0;
+
+        font-size: 14px;
+        line-height: 29px;
+        font-weight: 500;
+        background-color: transparent;
+        border: none;
+        color: inherit;
+        border-bottom: 2px solid;
+
+    }
+
+    #U-hero{
+        display: none;
+    }
+
+    #U-hero-small{
+        display: block;
+    }
+}
