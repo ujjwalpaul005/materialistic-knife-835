@@ -483,3 +483,62 @@ color: gray;
     top: 0;
     
 }
+/* --------------------------sidebar------------------------------ */
+#P-ham{
+    display: none;
+}
+#sidebar{
+    position: absolute;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    display: none;
+}
+#sidebar>ul{
+    padding-top: 40px;
+}
+#sidebar>ul>li{
+    padding: 20px 20px 20px 20px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+#sidebar>ul>li>p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 732px) {
+  #navbar2{
+    display: none;
+  }
+  
+  #left>ul>li>img{
+        width: 150px;
+        margin-top: -20px;
+    }
+ #left{
+    width: 25%;
+    margin-left: 20px;
+}
+#left1{
+    display: none;
+}
+  
+#right{
+    width: 65%;
+    margin-top: 10px;
+}
+#P-ham{
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+.cross{
+    float: right;
+    padding-right: 20px;
+    /* padding-top: 20px; */
+    font-size: 30px;
+}
+
+}

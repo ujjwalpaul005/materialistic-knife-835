@@ -1,9 +1,22 @@
 // -----------------------------html------------------------------------
 let header=()=>{
     return `
+    <div id="sidebar">
+            <div class="cross" onclick="P_sidebarCross()"><i class="fa-solid fa-xmark"></i></div>
+            <ul>
+                <li>SHOP <p>+</p></li>
+                <li>NEW! <p>+</p></li>
+                <li>BRANDS <p>+</p></li>
+                <li>EXPLORE <p>+</p></li>
+                <li>EVENTS <p>+</p></li>
+                <li>BLUE REWARDS <p>+</p></li>
+                <li>BEAUTY ALFRESCO <p>+</p></li>
+            </ul>
+        </div>
     <div id="navbar1">
             <div id="left">
             <ul>
+            <li id="P-ham" onclick="P_sidebarHam()"> <i class="fa-solid fa-bars"></i></li>
             <li id="left1"> <i class="fa-solid fa-location-dot"></i> STORE & SPA LOCATOR</li>
             <li id="left2"><img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury-logo_1216x@2x.png?v=1648743182" alt="Logo"></li>
         </ul>
@@ -62,5 +75,6 @@ let header=()=>{
     </div>
     `
 }
+
 
 export default header;

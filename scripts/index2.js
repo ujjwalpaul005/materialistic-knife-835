@@ -349,4 +349,14 @@ function P_SearchFun(){
     let div=document.querySelector("#P-search-Div");
     div.style.display="none";
     }
-    
+//    ------------------------sidebar----------------------------- // 
+function P_sidebarHam(){
+    let div=document.querySelector("#sidebar");
+    div.style.display="block"
+    document.querySelector("body").style.background="#1111"
+}
+function P_sidebarCross(){
+    let div=document.querySelector("#sidebar");
+    div.style.display="none";
+    document.querySelector("body").style.background="white"
+}
