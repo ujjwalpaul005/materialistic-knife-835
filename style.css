@@ -298,12 +298,21 @@ font-size: 16px;
 
 .slick-prev.slick-arrow::before{
 
-    background-color: black;
+    color: black;
+    font-size: 70px;
+    content: "<";
+    margin-left: -30px;
+    
  
     
 }
- .slick-next.slick-arrow{
-    background-color: black;
+ .slick-next.slick-arrow::before{
+  color: black;
+    font-size: 70px;
+    content: ">";
+    margin-right: -40px;
+    
+ 
  }
   
  
