@@ -1,0 +1,83 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* background-image: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwuf?ver=10fd"; */
+    /* background: linear-gradient(45deg, #78b77e, #77b7a0 40%, #8cab9c 59%, #c2dae4 85%, #b76c51); */
+}
+/* #container {
+    border: 1px solid;
+   color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(154, 161, 161);
+
+}
+#container:hover{
+    background-color: black;
+    color: white;
+} */
+#vikash{
+    /* border: 2px solid blue; */
+    width: 30%;
+    height: 30px;
+   background-color: rgb(128, 205, 231);
+    color: rgb(19, 19, 18);
+   
+}
+#vikashlal{
+    height: 35px;
+    background: rgba(0, 242, 199,213);
+    color: white;
+    margin-left: 500px;
+}
+#btn{
+   cursor: pointer;
+    height: 35px;
+    width: 10%;
+    background-color: rgb(27, 139, 187);
+    color: white;
+}
+.mapouter{
+    border: 1px solid;
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+    display: flex;
+   
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+   
+   
+}
+iframe{
+    width: 300PX;
+    height: 250px;
+}
+p{
+    color: rgb(24, 152, 216);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#navbar{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#week{
+    background-color: red;
+    color: blue;
+    /* margin-left: 400px; */
+    
+}
+#temp{
+border: 1px solid;
+}
