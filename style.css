@@ -423,7 +423,7 @@ font-size: 16px;
 }
 
 
-.slick-prev.slick-arrow::before{
+ .slick-prev.slick-arrow::before{
 
     color: black;
     font-size: 70px;
@@ -440,7 +440,7 @@ font-size: 16px;
     margin-right: -40px;
     
  
- }
+ } 
  @media screen and (max-width:768px) {
     .row {
         display: flex;
@@ -453,6 +453,19 @@ font-size: 16px;
       
        
     }
+    .second {
+        border: 1px solid red;
+        display: flex;
+        margin: auto;
+        width: 80%;
+          height: 250px;
+      
+          box-sizing: border-box;
+    
+    
+    }
+   
+
     .slick-prev.slick-arrow::before{
 
         margin-left: -50px;
@@ -686,6 +699,268 @@ margin-top: -114px;
     text-transform: bold;   
 }
 }
+
+/* Beauty alfresco page ended here */
+
+.kalakaae{
+    display: flex;
+   
+    width: 100%;
+    height: 430px;
+    margin-top: 40px;
+    cursor: grab;
+}
+.uparimgescroll{
+width: 100%;
+height: 100%;
+
+
+}
+.uparimgescroll>img{
+    height: 100%;
+    width: 100%;
+}
+#slick-slide-control00::before{
+ height:100px;
+ margin-left: 580px;  
+ font-size: 12px;
+ margin-top: 10px;
+
+}
+#slick-slide-control01::before{
+    margin-left: 580px;
+    font-size: 12px;
+margin-top: 10px;
+}
+#daabAwala-err{
+    
+    display: flex;
+    border: 1px solid black;
+   width: 1030px;
+   margin: auto;
+   text-transform: uppercase;
+   justify-content: space-around;
+   height: 65px;
+   
+  
+
+}
+#daabAwala-err>p{
+margin-top: 26px;
+font-size: 13px;
+color: rgb(18,40,76)
+}
+.verticle-linehdkjk{
+    width: 0.8px;
+    margin-top: 14px;
+    height: 35px;
+    background:black;
+  }
+#bastahaiureouioe{
+    border: 1px solid green;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#bastahaiureouioe>h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: rgb(18,40,76);
+}
+#bastahaiureouioe>p{
+color: rgb(18,40,76);
+    font-weight: 300;
+    font-size: 16px;
+   margin: 4px;
+   
+}
+#bastahaiureouioe>h4{
+margin-top: 10px;
+text-decoration: underline;
+font-weight: 500;
+text-transform: uppercase;
+font-size: 16px;
+color: rgb(18,40,76);
+}
+.apnagyaandf{
+   
+    height: 470px;
+    width: 86%;
+    margin: auto;
+    display: flex;
+   
+}
+
+.milohmsaier{
+    
+ /* position: absolute; */
+  left: 100%; 
+  border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.phito{
+    
+    height: 100%;
+    border: 4px solid red;
+    max-width: 640px;
+}
+.phito>img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: none; 
+     object-fit: cover;
+top: 0;
+vertical-align: top;
+}
+.para{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    display: block;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+   
+   
+ 
+
+}
+#basta2hia{
+    border: 1px solid green;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#basta2hia>div{
+display: flex;
+
+}
+#basta2hia>h3{
+font-weight: 300;
+}
+#basta2hia>div>h1:nth-child(1){
+    font-weight: 300;
+    color: rgb(18,40,76);
+    font-size: 45px;
+}
+#basta2hia>div>h1:nth-child(2){
+    color: rgb(18,40,76);
+    font-size: 45px;
+}
+#basta2hia>div>h2{
+margin-top: 20px;
+font-weight: 200;
+}
+
+#basta2hia>p{
+    color: rgb(18,40,76);
+        font-weight: 300;
+        font-size: 16px;
+       margin: 2px;
+       
+    }
+    #basta2hia>h4{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(18,40,76);
+    }
+    #imageandnote{
+        height: 470px;
+        width: 86%;
+       
+        margin-top: 10px;
+        display: flex;
+        margin: auto;
+    }
+    #imageandnote>div{
+   width: 50%;
+   height: 100%;
+
+    }
+    #imageandnote>div:nth-child(1)>img{
+        width: 100%;
+    height: 100%;
+    }
+    #imageandnote>div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(18,40,76);
+    }
+    #imageandnote>div:nth-child(2)>h2{
+       
+        font-weight: 300;
+        font-size: 30px;
+    }
+    #imageandnote>div:nth-child(2)>p{
+        margin: 2px;
+        margin-top: 4px;
+        font-weight: 250;
+    }
+    #imageandnote>div:nth-child(2)>h4{
+        margin-top: 20px;
+ text-decoration: underline;
+ text-transform: uppercase;
+ font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* transition: opacity .5s,transform 1s;
+    transition-delay: .2s;
+    transition-timing-function: cubic-bezier(.215,.61,.355,1);
+    for transition of words
+   display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    vertical-align: top;
+    padding: 54px 60px;
+    white-space: normal;
+   
+    */
+    
+    
+
+
+
 
 
 
