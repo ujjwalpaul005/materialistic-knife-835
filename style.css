@@ -93,6 +93,51 @@ margin-top: 190px;
 #Crimala>div>img:hover{
     transform: scale(105%);
 }
+#nichka{
+    margin: auto;
+    display: flex;
+    height: 460px;
+
+    margin-top: 25px;
+    width: 920px;
+    cursor: pointer;
+    gap: 5px;
+    
+}
+#nichka>div{
+  
+width: 400px;
+position: relative;
+overflow: hidden;
+width: calc(50vw - 4px);
+height: calc(50vw - 4px);
+border: 4px solid white;
+height: 470px;
+margin-top: 90px;
+}
+#nichka>div>img{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all ease-in 0.6s;
+}
+#nichka>div>h2{
+   position: relative;
+    display: block;
+    margin: 0 auto 0.25em;
+margin-top: 190px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#nichka>div>img:hover{
+    transform: scale(105%);
+}
 #kesha{
     margin: auto;
     width: 400px;
@@ -102,7 +147,7 @@ margin-top: 190px;
     height: calc(50vw - 4px);
     border: 4px solid white;
     height: 460px;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
    
 }
@@ -119,6 +164,78 @@ margin-top: 190px;
 transform: scale(105%);
 }
 #kesha>h2{
+    position: relative;
+    display: block;
+    margin: 0 auto 0.25em;
+margin-top: 190px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#Nailwala{
+    margin: auto;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    width: calc(50vw - 4px);
+    height: calc(50vw - 4px);
+    border: 4px solid white;
+    height: 460px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+#Nailwala>img{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all ease-in 0.6s;
+}
+#Nailwala>img:hover{
+transform: scale(105%);
+}
+#Nailwala>h2{
+    position: relative;
+    display: block;
+    margin: 0 auto 0.25em;
+margin-top: 190px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#Toolswala{
+    margin: auto;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    width: calc(50vw - 4px);
+    height: calc(50vw - 4px);
+    border: 4px solid white;
+    height: 460px;
+    margin-top: 100px;
+    cursor: pointer;
+   
+}
+#Toolswala>img{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all ease-in 0.6s;
+}
+#Toolswala>img:hover{
+transform: scale(105%);
+}
+#Toolswala>h2{
     position: relative;
     display: block;
     margin: 0 auto 0.25em;
@@ -252,7 +369,7 @@ font-size: 30px;
     font-weight: 400;
     color: white;
     text-align: center;
-   font-family: Bold, sans-serif ; 
+   
 }
 #footka{
     height: 400px;
@@ -266,8 +383,18 @@ font-size: 30px;
     width: 80%;
     
     height: 250px;
-    margin-top:-140px ;
+    margin-top:30px ;
    
+}
+.second{
+    display: flex;
+    margin: auto;
+     gap: 10px;
+     width: 80%;
+     
+     height: 250px;
+     margin-top:-145px;
+    
 }
 .ROkau{
 width: 25%;
@@ -314,6 +441,268 @@ font-size: 16px;
     
  
  }
+ @media screen and (max-width:768px) {
+    .row {
+        display: flex;
+       margin: auto;
+       width: 80%;
+         height: 250px;
+     
+         box-sizing: border-box;
+   margin-top:-120px;
+      
+       
+    }
+    .slick-prev.slick-arrow::before{
+
+        margin-left: -50px;
+    }
+    .slick-next.slick-arrow::before{
+        margin-right:-50px ;
+    }
+   #bido{
+    width: 100%;
+margin: auto;
+margin-top: -140px;
+ 
+
+}
+.pehlevideo{
+    width: 100%;
+    height: 600px;
+    
+ 
+}
+#phito{
+    display: none;
+    display: block;
+    width: 90vw;
+    margin-top:-350px;
+    margin-left: 70px;
+    background-image: url("");
+
+
+}
+
+#Crimala{
+    margin: auto;
+    display: flex;
+    height: 460px;
+
+    margin-top: -65px;
+    width: 470px;
+    cursor: pointer;
+    gap: 5px;
+    
+}
+#Crimala>div{
+  
+width: 400px;
+margin-top: -8px;
+}
+#Crimala>div>h2{
+   font-size: 30px;
+   margin-top: 200px; 
+   text-transform: bold;   
+}
+#kesha{
+    margin: auto;
+    display: flex;
+    height: 460px;
+border: none;
+    margin-top: -214px;
+    width:240px;
+    cursor: pointer;
+    gap: 5px;
+   
+}
+#kesha>h2{
+    font-size: 30px;
+    margin-top: 220px; 
+    text-transform: bold;   
+}
+.loccha {
+    height:220px;
+    width: 460px;
+   margin: auto;
+    
+    margin-top: -90px;
+}
+
+#pandu{
+ 
+   margin: auto;
+     height: 480px;
+    
+  
+     margin-top: 10px;
+     width: 460px;
+     cursor: pointer;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(2,230px);
+    
+
+  
+ 
+     
+ }
+ #pandu>div{
+ margin-top: -35px;
+    box-sizing: border-box;
+     position: relative;
+     overflow: hidden;
+     width: calc(33vw - 4px);
+     height: calc(45vw - 4px);
+  border: none;
+    
+  
+ 
+ }
+ #pandu>div>h2{
+     
+     font-size: 30px;
+     margin-top: 140px; 
+      
+ }
+ 
+ #Nailwala{
+    margin: auto;
+    height: 460px;
+border: none;
+margin-top: -100px;
+    width:240px;
+    cursor: pointer;
+    gap: 5px;
+   
+}
+#Nailwala>h2{
+    font-size: 30px;
+    margin-top: 220px; 
+    text-transform: bold;   
+}
+#sPf{
+    
+height: 90%;
+margin-top: 30px;
+border: 1px solid red;
+width: 550px;
+
+
+
+}
+#sPf>img{
+height: 207%;
+width: 100%;
+margin-top: 100px;
+display: block;
+margin-top: -20px;
+background-image: none;
+ background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/spf-hero-mob.jpg?v=1651552133);
+ background-repeat: no-repeat;
+ background-size: 100%;
+
+
+    
+
+}
+#sPf>h2{
+ margin-top: 420px;
+ margin-left: 150px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.second{
+  margin-top: 350px;
+    
+}
+#sPfrt{
+
+    width: 101%;
+    height: 468px;
+        border: 1px solid white;
+}
+#sPfrt>img{
+  background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/beauty-alfresco-alt-hero-mob-unedited.jpg?v=1651552064);
+  background-size: 100%;
+margin-top: -10px;
+height: 127%;
+width: 100%;
+
+}
+#sPfrt>h2{
+   
+margin-top: 330px;
+    font-size: 65px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    
+}
+#sPfrt>p{
+    
+font-size: 26px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  
+}
+#nichka{
+    margin: auto;
+    display: flex;
+    height: 460px;
+
+  margin-top: 277px;
+    width: 470px;
+    cursor: pointer;
+    gap: 13px;
+    
+}
+#nichka>div{
+  border: none;
+width: 400px;
+margin-top: -8px;
+}
+#nichka>div>h2{
+   font-size: 30px;
+   margin-top: 220px; 
+     
+}
+#Toolswala{
+    margin: auto;
+    height: 260px;
+border: none;
+margin-top: -114px;
+    width:240px;
+    cursor: pointer;
+    gap: 5px;
+
+}
+#Toolswala>h2{
+    font-size: 30px;
+    margin-top: 220px; 
+    text-transform: bold;   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
  
 
