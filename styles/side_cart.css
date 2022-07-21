@@ -1,0 +1,93 @@
+#U-sideCart{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /* background: #363636; */
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /* opacity: 0.5; */
+    visibility: hidden;
+}
+
+#U-side_cart-drawer{
+    position: fixed;
+    right: 0;
+    width: 450px;
+    z-index: 20;
+    box-shadow: 2px 0 10px #363636;
+    left: auto;
+    height: 100vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#U-sideTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 40px;
+
+    border-bottom: 1px solid #999;
+}
+
+#U-sideTop > p{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.U-sideCard > img{
+    max-width: 95px;
+    max-height: 95px;
+}
+
+
+.U-sideCard{
+    display: flex;
+    margin: 20px;
+}
+
+.U-sideCheckout{
+    position: fixed;
+    bottom: 0;
+    padding: 0px 0px 30px;
+    box-shadow: 2px 10px 20px #363636;
+}
+
+.U-sideCheckout > p{
+    max-width: 90%;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+
+    margin: 5px 30px 25px;
+}
+
+.U-sideCheckout > button{
+    width: 90%;
+    background-color: #12284c;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    color: white;
+    height: 45px;
+    margin: 5px 30px;
+}
+
+.free{
+    margin: 20px 30px;
+}
+
+.U-sidebtns > div{
+    display: flex;
+    text-align: center;
+}
+
+.U-sidebtns > div > p{
+    font-size: 20px;
+    width: 20px;
+    height: 30px;
+    background-color: #999;
+
+}
