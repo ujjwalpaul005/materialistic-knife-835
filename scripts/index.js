@@ -85,3 +85,21 @@ hero_btns_t.forEach((el) => {
       changeIt(el);
     });
   });
+
+let i = 0;
+
+setInterval(()=>{
+  if(i>3){
+    i = 0;
+  }
+
+  if(window.innerWidth > 768){
+    changeIt(hero_btns[i]);
+  }else{
+    changeIt(hero_btns_t[i]);
+  }
+
+  // console.log(i);
+  i++;
+}, 3000)
+ 
