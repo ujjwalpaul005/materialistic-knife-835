@@ -1,13 +1,13 @@
+
 #U-sideCart{
     position: fixed;
     height: 100vh;
     width: 100vw;
-    /* background: #363636; */
-    z-index: 10;
+    background: #3636368c;
+    z-index: 100;
     top: 0;
     left: 0;
-    /* opacity: 0.5; */
-    visibility: hidden;
+    display: none;
 }
 
 #U-side_cart-drawer{
@@ -76,7 +76,18 @@
 }
 
 .free{
-    margin: 20px 30px;
+    margin: 15px 30px;
+}
+
+.U-sideN > p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    max-width: 200px;
+}
+
+.U-sideN > p:first-child{
+    font-weight: 400;
 }
 
 .U-sidebtns > div{
@@ -85,9 +96,52 @@
 }
 
 .U-sidebtns > div > p{
-    font-size: 20px;
-    width: 20px;
-    height: 30px;
-    background-color: #999;
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 500;
+    padding: 10px 10px;
 
+    background-color: #f8f8f8;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.U-sidebtns > div > p:nth-child(2){
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    cursor:default;
+}
+
+.U-sidebtns button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    color: inherit;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+
+.U-cardArea{
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+#cart-empty{
+    text-align: center;
+    margin: 50% 0;
+}
+
+
+@media only screen and (max-width : 768px){
+    #U-sideCart{
+        display: none !important;
+    }
+
+    body{
+        overflow-y: auto !important;
+    }
 }

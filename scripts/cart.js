@@ -153,9 +153,13 @@ decrease = (i) => {
 
   cart_items[i].quantity--;
 
-//   if (cart_items[i].quantity < 1) {
-//     removeIt(i);
-//   }
+  if (cart_items[i].quantity < 1) {
+    cart_items.splice(i, 1);
+
+    localStorage.setItem("cart", JSON.stringify(cart_items));
+
+    cart_func();
+  }
 
   localStorage.setItem("cart", JSON.stringify(cart_items));
 
