@@ -98,7 +98,7 @@ margin-top: 190px;
     display: flex;
     height: 460px;
 
-    margin-top: 25px;
+    margin-top: -170px;
     width: 920px;
     cursor: pointer;
     gap: 5px;
@@ -312,23 +312,30 @@ margin-top: 190px;
 #sPf{
     width: 101%;
 height: 468px;
-
+background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/spf-hero-des_bc6f4ea6-3615-4e1f-984e-3aecee017c94.jpg?v=1651603525);
+background-repeat: no-repeat;
+background-size: 100%;
+z-index: 0;
+position: absolute;
+left: 0;
+margin-top: 13px;
 
 }
-#sPf>img{
+/* #sPf>img{
     z-index: 0;
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-top: -270px;
-}
+    margin-top: 270px;
+    
+} */
 #sPf>h2{
     position: relative;
     display: block;
     margin: 0 auto 0.25em;
-margin-top: 190px;
+margin-top: 189px;
     font-size: 60px;
     font-weight: 400;
     color: white;
@@ -338,18 +345,22 @@ margin-top: 190px;
 #sPfrt{
     margin-top: 40px;
     width: 101%;
-    height: 468px;
+    height: 668px;
         border: 1px solid white;
+        background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/beauty-alfresco-hero-main-des.jpg?v=1651552111);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        
 }
-#sPfrt>img{
+/* #sPfrt>img{
     z-index: 0;
     position: absolute;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    
+    object-fit: contain
+    ;
 margin-top: -47px;
-}
+} */
 #sPfrt>h2{
     position: relative;
     display: block;
@@ -393,7 +404,7 @@ font-size: 30px;
      width: 80%;
      
      height: 250px;
-     margin-top:-145px;
+     margin-top:505px;
     
 }
 .ROkau{
@@ -440,7 +451,8 @@ font-size: 16px;
     margin-right: -40px;
     
  
- } 
+ }
+ 
  @media screen and (max-width:768px) {
     .row {
         display: flex;
@@ -459,7 +471,7 @@ font-size: 16px;
         margin: auto;
         width: 80%;
           height: 250px;
-      
+      margin-top: 1000px;
           box-sizing: border-box;
     
     
@@ -595,56 +607,38 @@ margin-top: -100px;
 }
 #sPf{
     
-height: 90%;
+height: 144%;
 margin-top: 30px;
-border: 1px solid red;
-width: 550px;
 
-
-
-}
-#sPf>img{
-height: 207%;
 width: 100%;
-margin-top: 100px;
-display: block;
-margin-top: -20px;
-background-image: none;
- background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/spf-hero-mob.jpg?v=1651552133);
- background-repeat: no-repeat;
- background-size: 100%;
+background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/spf-hero-mob.jpg?v=1651552133);
+background-repeat: no-repeat;
+background-size: 100%;
 
 
-    
 
 }
 #sPf>h2{
  margin-top: 420px;
- margin-left: 150px;
+ margin-left: 110px;
     font-size: 30px;
     font-weight: 400;
     color: white;
     text-align: center;
     text-decoration: underline;
 }
-.second{
-  margin-top: 350px;
-    
-}
+
 #sPfrt{
 
     width: 101%;
     height: 468px;
         border: 1px solid white;
-}
-#sPfrt>img{
-  background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/beauty-alfresco-alt-hero-mob-unedited.jpg?v=1651552064);
-  background-size: 100%;
-margin-top: -10px;
-height: 127%;
+        background-image: url(https://cdn.shopify.com/s/files/1/0283/0185/2747/files/beauty-alfresco-alt-hero-mob-unedited.jpg?v=1651552064);
+        background-size: 100%;
+        height: 127%;
 width: 100%;
-
 }
+
 #sPfrt>h2{
    
 margin-top: 330px;
@@ -667,7 +661,7 @@ font-size: 26px;
     display: flex;
     height: 460px;
 
-  margin-top: 277px;
+  margin-top: -90px;
     width: 470px;
     cursor: pointer;
     gap: 13px;
@@ -699,6 +693,8 @@ margin-top: -114px;
     text-transform: bold;   
 }
 }
+
+
 
 /* Beauty alfresco page ended here */
 
@@ -801,7 +797,7 @@ color: rgb(18,40,76);
  /* position: absolute; */
   left: 100%; 
   border: 1px solid red;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
 }
 .phito{
