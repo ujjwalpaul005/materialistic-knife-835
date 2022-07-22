@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #293c5d;
+}
+
+svg{
+    width: 20px;
+}
+
+#U-main{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+
+#U-pdtArea{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.U-pdtCard{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.U-image > img{
+    width: 200px;
+}
+
+.U-image > .U-new{
+    display: flex;
+    justify-content: space-between;
+}
+.U-rates > svg{
+    width: 12px;
+}
+
+.U-rates{
+    display: flex;
+    justify-content: center;
+}
+
+.U-rates > p{
+    margin: 0 5px;
+}
