@@ -7,9 +7,9 @@ let pdt_data;
 let wishlist;
 let saveIt;
 
-// let x = "lipstick";
+let x = "lipstick";
 
-// localStorage.setItem("searchInput", JSON.stringify(x));
+localStorage.setItem("searchInput", JSON.stringify(x));
 
 let stored = JSON.parse(localStorage.getItem("searchInput"));
 

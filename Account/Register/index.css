@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     outline: none;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-family: "Montserrat Regular", sans-serif;
     font-style: normal;
-    line-height: 1.65;
-    overflow-x: hidden;
+    /* line-height: 1.65; */
+    /* overflow-x: hidden; */
 }
 
 #M-section-2{

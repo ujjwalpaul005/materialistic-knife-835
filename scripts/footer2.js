@@ -7,3 +7,4 @@ document.getElementById("P-container").innerHTML=footer();
 //     let div=document.getElementById("P-footer2Box1");
 //     div.style.display="none";
 // }
+

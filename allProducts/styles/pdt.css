@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     color: #293c5d;
 }
 
@@ -35,7 +35,7 @@ svg{
 }
 .U-underline > div > p{
     font-size: 10px;
-    line-height: 10px;
+    line-height: 1rem;
     font-weight: 300;
 }
 
