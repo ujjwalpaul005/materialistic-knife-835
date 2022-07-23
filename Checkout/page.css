@@ -221,36 +221,40 @@ body{
     font-size: 16px;
     letter-spacing: .5px;
     font-weight: 400;
-    padding-left: 0.5714285714rem;
-    padding-right: 0.5714285714rem;
-    padding-bottom: 0.1428571429rem;
     padding-top: 0.1428571429rem;
+    padding-left: 0.5714285714rem;
+    padding-bottom: 0.1428571429rem;
+    padding-right: 0.5714285714rem;
     color: #12284c;
 }
 
 .info{
     zoom: 1;
     display: block;
-    /* position: absolute; */
 }
 .mail{
     width: 100%;
-    float: left;
-    padding: 6px;
-    /* position: relative; */
+    position: relative;
+    /* float: left; */
+    /* padding: 6px; */
 }
 .mail label{
-    /* position: absolute; */
-    top: 0;
+    margin: 0.52em 0;
+    position: absolute;
+    text-align: left;
+    left: 10px;
+    bottom: 5px;
     transition: all 0.2s ease-out;
     user-select: none;
     pointer-events: none;
     color: #12284c;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 19px;
     text-transform: uppercase;
+    opacity: 1;
+    z-index: 1;
 }
-.mail input[type="text"],
+.mail input[type="email"],
 textarea {
     width: 410px;
     max-height: 50px;
@@ -267,6 +271,100 @@ textarea {
     background-clip: padding-box;
 }
 
-.mail input:focus ~ label{
-    
+.mail input:focus ~ label,
+.mail textarea:focus ~ label,
+.mail input:valid ~ label,
+.mail textarea:valid ~ label{
+    bottom: 18px;
+    color: #f7497d;
+}
+
+.check{
+    width: 100%;
+    margin-top:  0.9285714286em;
+    display: table;
+    zoom: 1;
+}
+.check input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    vertical-align: -4px;
+    border: 1px solid #12284C;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+.check label{
+    width: 100%;
+    margin-left: 10px;
+    color: #12284C;
+    cursor: pointer;
+}
+
+.info2{
+    padding-top: 3em;
+    position: relative;
+}
+.info2 h2{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #12284C;
+}
+.info3{
+    zoom: 1;
+    display: block;
+}
+.info3::before,
+.info3::after{
+    content: "";
+    display: table;
+}
+.loca{
+    width: 100%;
+    position: relative;
+}
+.loca select{
+    width: 100%;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 19px 29px 12px 11px;
+    line-height: 19px;
+    border-color: #12284c;
+    max-height: 50px
+}
+.loca select option{
+    background-color: #fff;
+    color: #000;
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.loca label{
+    margin: 0.52em 0;
+    position: absolute;
+    text-align: left;
+    left: 10px;
+    bottom: 21px;
+    transition: all 0.2s ease-out;
+    user-select: none;
+    pointer-events: none;
+    color: #12284c;
+    font-size: 10px;
+    line-height: 19px;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 1;
+}
+.input1{
+    width: 50%;
+    display: block;
+}
+
+.input2{
+    width: 50%;
+    display: block;
 }
