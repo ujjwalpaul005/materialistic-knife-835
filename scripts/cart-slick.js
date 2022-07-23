@@ -1,5 +1,5 @@
-
-$('.U-slider').slick({
+setTimeout(()=>{
+  $('.U-slider').slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -34,3 +34,5 @@ $('.U-slider').slick({
       // instead of a settings object
     ]
   });
+}, 1000)
+

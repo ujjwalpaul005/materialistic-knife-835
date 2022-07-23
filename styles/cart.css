@@ -425,6 +425,7 @@ button{
 }
 
 .U-card > img{
-    width: 250px;
+    width: 200px;
+    height: 200px;
     margin: auto;
 }

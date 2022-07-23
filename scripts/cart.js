@@ -21,6 +21,9 @@
 let removeIt;
 let increase;
 let decrease;
+let sliding;
+let showSlider;
+let saveIt;
 
 let cart_func = () => {
   let cart_items = JSON.parse(localStorage.getItem("cart")) || [];
@@ -175,3 +178,72 @@ removeIt = (i) => {
 
   cart_func();
 };
+
+
+
+
+// sliders -------------
+const url = `https://makeup-api.herokuapp.com/api/v1/products.json?`;
+
+let eye_liner_url = url + `product_type=eyeliner&brand=maybelline`
+let nail_polish_url = url + `product_type=nail_polish&brand=dior`
+ 
+
+sliding = (url, id) =>{
+  fetch(url).then((res)=>{
+    console.log("res", res);
+    return res.json();
+  }).then((data)=>{
+    console.log(data)
+    showSlider(data, id);
+  }).catch((err)=>{
+    console.log(err);
+  })
+}
+
+showSlider = (data, id) =>{
+  let area = document.getElementById(id);
+
+  data.forEach((el)=>{
+    let card = document.createElement("div");
+    card.setAttribute("class", "U-card");
+
+    let image = document.createElement("img");
+    image.src = el.api_featured_image;
+
+    let h4 = document.createElement("h4");
+    h4.innerText = el.name;
+    // h4.style = "width: 100px; text-overflow:eclipse;"
+
+    let p = document.createElement("p");
+    p.innerText = `$ ${el.price}`;
+
+    card.addEventListener("click", ()=>{
+      saveIt(el);
+    })
+    card.append(image, h4, p);
+
+    area.append(card);
+  })
+}
+
+
+sliding(eye_liner_url, "eye_liner")
+
+sliding(nail_polish_url, "nail_polish")
+
+
+
+
+
+saveIt = (el) =>{
+  let pdt = {
+    name : el.name,
+    image : el.api_featured_image,
+    brand : el.brand,
+    price : el.price,
+    quantity : 1,
+  }
+
+  localStorage.setItem("product", JSON.stringify(pdt));
+}
