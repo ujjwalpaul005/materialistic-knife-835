@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #293c5d;
+}
+
+svg{
+    width: 20px;
+}
+
+#U-main{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+
+#U-filters{
+    margin-top: 35px;
+    width: 20%;
+}
+.U-underline{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #99999963;
+}
+
+.U-underline > p{
+    font-size: 30px;
+    line-height: 5px;
+    font-weight: 300;
+}
+.U-underline > div > p{
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.U-underline > div > p:first-child{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#U-filterN > .U-underline{
+    cursor: pointer;
+}
+#U-clear{
+    cursor: pointer;
+    display: none;
+}
+#U-types{
+    margin-bottom: 50px;
+}
+#U-types > p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+#U-Price > p{
+    cursor: pointer;
+}
+
+
+.U-dropdown{
+    height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+.U-dropdown > p{
+    cursor: pointer;
+}
+
+
+
+
+#U-product{
+    width: 80%;
+}
+#U-pdtTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #99999963;
+}
+#U-pdtTop > h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.U-Nsort{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#sorting{
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    color: #999;
+    border: 1px solid #99999963;
+    outline: none;
+    cursor: pointer;
+}
+#sorting > option{
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#U-pdtArea{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px 20px;
+}
+
+#U-pdtArea > img{
+    grid-column-start: 2;
+}
+
+.U-pdtCard{
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.U-pdtCard i{
+    color: #5e769b;
+}
+
+.U-image > img{
+    width: 200px;
+    height: 200px;
+}
+
+.U-image > .U-new{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17px;
+    align-items: center;
+}
+
+.U-pdtN{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.U-pdtN > p:first-child{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.U-pdtN > p:nth-child(2){
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+    width: 200px;
+}
+.U-rates > svg{
+    width: 12px;
+}
+
+.U-rates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.U-rates > p{
+    margin: 0 5px;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+    #U-pdtArea{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width:800px){
+    #U-pdtArea{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width:600px){
+    #U-pdtArea{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
