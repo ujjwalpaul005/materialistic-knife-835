@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#U_top{
+    margin: 150px 50px 50px;
+}
+#U_main{
+    display: flex;
+    gap: 40px;
+    margin: 60px;
+    justify-content: space-between;
+}
+
+#U_left{
+    width: 30%;
+}
+
+#U_accDetails{
+    display: flex;
+    gap:40px;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+#U_right{
+    width: 70%;
+    text-align: left;
+}
