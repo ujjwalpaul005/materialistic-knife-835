@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
-    -webkit-transition: all 2s ease;
+   
         
 }
 
@@ -100,7 +100,7 @@ margin-top: 190px;
     display: flex;
     height: 460px;
 
-    margin-top: -170px;
+    margin-top: -80px;
     width: 920px;
     cursor: pointer;
     gap: 5px;
@@ -185,7 +185,7 @@ margin-top: 190px;
     height: calc(50vw - 4px);
     border: 4px solid white;
     height: 460px;
-    margin-top: 10px;
+    margin-top: -120px;
     cursor: pointer;
    
 }
@@ -253,8 +253,10 @@ margin-top: 190px;
     height:450px;
     width: 920px;
     overflow:hidden;
-    margin-left: 215px;
+   margin: auto;
+    
     margin-top: 10px;
+   
 
 }
 .mukaa {
@@ -264,28 +266,29 @@ margin-top: 190px;
 }
 #pandu{
  
-   margin-left: 210px;
-    height: 920px;
+   margin: auto;
+    height: 1034px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,460px);
+    grid-template-rows: repeat(2,448px);
     margin-top: 10px;
-    width: 920px;
+    width: 930px;
     cursor: pointer;
     gap: 10px;
+  
  
 
     
 }
 #pandu>div{
-
+  width: 453px;
     position: relative;
     overflow: hidden;
-    width: calc(33vw - 4px);
-    height: calc(33vw - 4px);
-    border: 4px solid white;
+    /* width: calc(33vw - 4px);
+    height: calc(33vw - 4px); */
+
    
- 
+
 
 }
 #pandu>div>img{
@@ -456,7 +459,7 @@ font-size: 16px;
         margin: auto;
         width: 80%;
           height: 250px;
-      margin-top: 1000px;
+      margin-top: 1040px;
           box-sizing: border-box;
     
     
@@ -646,7 +649,7 @@ font-size: 26px;
     display: flex;
     height: 460px;
 
-  margin-top: -90px;
+  margin-top: -200px;
     width: 470px;
     cursor: pointer;
     gap: 13px;
