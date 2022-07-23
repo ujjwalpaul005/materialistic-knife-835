@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 2s ease;
+        
 }
 
 *{
@@ -701,13 +703,13 @@ height: 100%;
 }
 #slick-slide-control00::before{
  height:100px;
- margin-left: 580px;  
+ margin-left: 780px;  
  font-size: 12px;
  margin-top: 10px;
 
 }
 #slick-slide-control01::before{
-    margin-left: 580px;
+    margin-left: 780px;
     font-size: 12px;
 margin-top: 10px;
 }
@@ -831,27 +833,30 @@ color: #12284c;
  
    display: flex;
    flex-direction: column;
-   justify-content: center;
-    align-items: center;
-    /* opacity .5s,transform 1s
-    -ms-transform-origin-z: 50px;
-
-    transition-duration: 0.5s, 1s;
-    transition-timing-function: cubic-bezier(.215,.61,.355,1);
-    transition-delay: .2s;
-    transition-delay: .2s;
-    transition-timing-function: cubic-bezier(.215,.61,.355,1); */
+   justify-content:center;
+    align-items: center;  
+     
 }
 .para>p{
 font-weight: 400;
 font-size: 16px;
 line-height: 25px;
 margin-top: 10px;
+
+}
+@keyframes text{
+  0%{
+    margin-top: 200px;
+  }
+    
+  
+ 
 }
 .para>h2{
 font-weight: 300;
 font-size: 27px;
 margin-top: 5px;
+ 
 }
 .para>h4{
     margin-top: 15px;
@@ -864,6 +869,12 @@ margin-top: 5px;
     font-size: 32px;
     line-height: 30px;
 font-weight: 300;
+overflow: hidden;
+white-space: nowrap;
+   
+animation: text 6s infinite; 
+ 
+  
 }
 
 .paraTHIRDslider{
@@ -917,9 +928,7 @@ text-align: start;
 
 }
 
-/* .para:focus{
-    transition: all 5s ease
-} */
+
 #basta2hia{
     
     height: 200px;
@@ -972,7 +981,7 @@ font-weight: 200;
     color: #12284c;
     }
     #imageandnote{
-        height: 470px;
+        height: 490px;
         width: 86%;
        
         margin-top: 10px;
@@ -1003,7 +1012,8 @@ font-weight: 200;
     #imageandnote>div:nth-child(2)>p{
         margin: 2px;
         margin-top: 4px;
-        font-weight: 250;
+        font-weight: 270;
+        margin-left:100px ;
     }
     #imageandnote>div:nth-child(2)>h4{
         margin-top: 20px;
@@ -1054,73 +1064,73 @@ font-weight: 200;
     }
     #slick-slide-control40::before{
         height:100px;
-margin-left:-575px ;
+margin-left:-700px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control41::before{
         height:100px;
-margin-left:-585px ;
+margin-left:-700px ;
  font-size: 12px;
  margin-top: 5px;
     }
     #slick-slide-control30::before{
         height:100px;
-margin-left:-560px ;
+margin-left:-690px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control31::before{
         height:100px;
-margin-left:-570px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
     }
     #slick-slide-control32::before{
         height:100px;
-margin-left:-580px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control20::before{
         height:100px;
-margin-left:-560px ;
+margin-left:-690px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control21::before{
         height:100px;
-margin-left:-570px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
     }
     #slick-slide-control22::before{
         height:100px;
-margin-left:-580px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control10::before{
         height:100px;
-margin-left:-560px ;
+margin-left:-690px ;
  font-size: 12px;
  margin-top: 5px;
 
     }
     #slick-slide-control11::before{
         height:100px;
-margin-left:-570px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
     }
     #slick-slide-control12::before{
         height:100px;
-margin-left:-580px ;
+margin-left:-695px ;
  font-size: 12px;
  margin-top: 5px;
 
