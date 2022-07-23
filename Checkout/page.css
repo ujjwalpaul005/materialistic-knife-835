@@ -5,16 +5,16 @@
     text-decoration: none;
     font-family: "Montserrat Regular", sans-serif;
     font-style: normal;
-    line-height: 1.3em;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow-x: hidden;
-    background: initial;
     box-sizing: border-box !important;
 }
 
 body{
     font-size: 14px;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-x: hidden;
+    background: initial;
     color: #545454;
 }
 
@@ -29,15 +29,16 @@ body{
 }
 
 #M-container-3{
+    width: 90%;
+    max-width: calc(1100px + 10%);
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
-    width: 90%;
     padding: 0 5%;
     margin: 0 auto;
     zoom: 1;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 #M-main{
@@ -51,12 +52,13 @@ body{
     flex: 1 0 auto;
     padding: 56px 66px 0px 0px;
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #M-header{
     display: block;
     padding: 0 0 28px;
+    float: left;
 }
 #M-header>a{
     display: flex;
@@ -70,7 +72,7 @@ body{
     transition: color 0.2s ease-in-out;
 }
 #M-header>a img{
-    max-width: 248px;
+    max-width: 15.5rem;
     max-height: 4.2857142857em;
     display: inline-block;
     border-style: none;
@@ -150,7 +152,6 @@ body{
     flex: 1 0 2em;
 }
 .paypal{
-    margin: auto;
     text-align: center;
     border: 1px #e6e6e6 solid;
     border-top: 0;
@@ -169,7 +170,7 @@ body{
     border-radius: 5px;
 }
 .btn img{
-    max-width: 248px;
+    max-width: 15.5rem;
     max-height: 1.5em;
     display: inline-block;
     border-style: none;
@@ -204,11 +205,11 @@ body{
 
 #form{
     display: block;
-    -webkit-box-flex: 1;
-    flex: 1 0 auto;
     padding-bottom: 4em;
+    float: left;
 }
 .cont{
+    padding: 6px;
     margin-left: -0.5714285714rem;
     margin-right: -0.5714285714rem;
     margin-bottom: -0.1428571429rem;
@@ -233,30 +234,30 @@ body{
     display: block;
 }
 .mail{
-    width: 100%;
+    width: 70%;
     position: relative;
-    /* float: left; */
-    /* padding: 6px; */
+    float: left;
+    padding: 6px;
 }
-.mail label{
+label{
     margin: 0.52em 0;
     position: absolute;
     text-align: left;
-    left: 10px;
-    bottom: 5px;
+    left: 15px;
+    bottom: 8px;
     transition: all 0.2s ease-out;
     user-select: none;
     pointer-events: none;
     color: #12284c;
     font-size: 12px;
     line-height: 19px;
-    text-transform: uppercase;
     opacity: 1;
     z-index: 1;
 }
-.mail input[type="email"],
+input[type="email"],
+input[type="text"],
 textarea {
-    width: 410px;
+    width: 100%;
     max-height: 50px;
     padding: 21px 11px 5px;
     box-sizing: border-box;
@@ -270,22 +271,31 @@ textarea {
     cursor: text;
     background-clip: padding-box;
 }
-
-.mail input:focus ~ label,
-.mail textarea:focus ~ label,
-.mail input:valid ~ label,
-.mail textarea:valid ~ label{
-    bottom: 18px;
+input[type="email"],
+input[type="text"]:focus{
+    box-shadow: rgba(121, 133, 154, 0.16) 0px 1px 2px, rgb(51, 51, 51) 0px 0px 0px 1px;
+}
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label{
+    bottom: 22px;
     color: #f7497d;
 }
 
 .check{
     width: 100%;
-    margin-top:  0.9285714286em;
-    display: table;
+    margin-top:  0.4em;
+    padding: 6px;
+    position: relative;
+    float: left;
     zoom: 1;
 }
-.check input[type=checkbox]{
+.check div{
+    width: 4%;
+    padding-right: 0.75em;
+}
+input[type=checkbox]{
     width: 18px;
     height: 18px;
     vertical-align: -4px;
@@ -294,16 +304,26 @@ textarea {
     background-color: white;
     cursor: pointer;
 }
+input[type=checkbox]:focus{
+    box-shadow: rgba(121, 133, 154, 0.16) 0px 1px 2px, rgb(51, 51, 51) 0px 0px 0px 1px;
+}
 .check label{
-    width: 100%;
-    margin-left: 10px;
+    width: 80%;
+    vertical-align: middle;
+    top: 0;
+    left: 35px;
+    bottom: 0;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 100;
     color: #12284C;
     cursor: pointer;
 }
 
 .info2{
-    padding-top: 3em;
-    position: relative;
+    width: 100%;
+    padding-top: 2.5em;
+    float: left;
 }
 .info2 h2{
     margin-bottom: 16px;
@@ -313,26 +333,29 @@ textarea {
     color: #12284C;
 }
 .info3{
+    width: 100%;
+    margin: -6px;
     zoom: 1;
     display: block;
-}
-.info3::before,
-.info3::after{
-    content: "";
-    display: table;
+    float: left;
+    /* border: 1px solid; */
 }
 .loca{
     width: 100%;
+    padding: 6px;
     position: relative;
+    float: left;
 }
 .loca select{
     width: 100%;
     font-size: 14px;
-    border-radius: 0;
     padding: 19px 29px 12px 11px;
     line-height: 19px;
     border-color: #12284c;
     max-height: 50px
+}
+.loca select:focus{
+    box-shadow: rgba(121, 133, 154, 0.16) 0px 1px 2px, rgb(51, 51, 51) 0px 0px 0px 1px;
 }
 .loca select option{
     background-color: #fff;
@@ -347,8 +370,8 @@ textarea {
     margin: 0.52em 0;
     position: absolute;
     text-align: left;
-    left: 10px;
-    bottom: 21px;
+    left: 20px;
+    bottom: 28px;
     transition: all 0.2s ease-out;
     user-select: none;
     pointer-events: none;
@@ -361,10 +384,138 @@ textarea {
 }
 .input1{
     width: 50%;
-    display: block;
+    padding: 6px;
+    position: relative;
+    float: left;
+    /* border: 1px solid; */
 }
-
 .input2{
     width: 50%;
-    display: block;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input3{
+    width: 100%;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input4{
+    width: 100%;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input4 input[type="text"],
+textarea{
+    padding: 13px 11px;
+    font-family: 'Montserrat Regular',sans-serif !important;
+    text-shadow: none;
+    font-weight: 100;
+} 
+.input5{
+    width: 33.33%;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input6{
+    width: 33.33%;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input7{
+    width: 33.33%;
+    padding: 6px;
+    position: relative;
+    float: left;
+}
+.input8{
+    width: 100%;
+    padding: 6px;
+    float: left;
+    position: relative;
+}
+.input8 div{
+    width: 4%;
+    padding-right: 0.75em;
+}
+.input8 label{
+    width: 80%;
+    vertical-align: middle;
+    top: 0;
+    left: 35px;
+    bottom: 0;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 100;
+    color: #12284C;
+    cursor: pointer;
+}
+
+.declare{
+    float: left;
+    padding: 14px 0 0;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+    color: #666;
+}
+.declare a{
+    color: #666;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.next{
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    float: left;
+}
+.next button{
+    text-align: center;
+    font-family: 'Montserrat Semi Bold',sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 13px 18px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    border: 1px transparent solid;
+    color: white;
+    background-color: #12284c;
+}
+.next a{
+    margin-right: 1em;
+    float: left;
+}
+.next a span{
+    color: #12284c;
+    font-family: 'Montserrat Light',sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: underline;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+
+#M-footer{
+    padding: 1em 0;
+    border-top: 1px solid #e6e6e6;
+}
+#M-footer>p{
+    color: #12284c;
+    font-family: 'Montserrat Light',sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: .5px;
 }
