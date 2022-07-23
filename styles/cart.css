@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #293c5d;
+}
+
+button{
+    cursor: pointer;
+}
+
+#U-top{
+    padding: 20px;
+}
+
+#U-top > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f4fafc;
+    /* background-color: aqua; */
+    justify-content: end;
+    width: max-content;
+    line-height: 1.65;
+    margin: 20px auto;
+    margin-right: 4%;
+    box-sizing: border-box;
+}
+
+#U-top > h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+#U-top > div > svg{
+    padding: 0 14px;
+}
+#U-top > div > p{
+    text-align: right;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 21px;
+    color: #12284c;
+    padding: 13px 20px 13px 0;
+}
+
+#U-gift{
+    padding: 20px;
+}
+
+#IsGift{
+    width: 20px;
+    height: 20px;
+    margin: 10px 20px 10px 0; 
+    cursor: pointer;
+}
+
+.U-pad h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0;
+}
+
+#U-gift > div{
+    display: flex;
+}
+
+
+#U-gift > div > div > p{
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#U-gift > div > div > p:first-child{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#U-gift > div > div > button{
+    display: flex;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    align-items: center;
+    text-decoration: underline;
+    margin: 10px 0;
+
+    font-size: 12px;
+    line-height: 20px;
+}
+#U-gift > div > div > button > svg{
+    width: 15px;
+    padding: 10px;
+}
+
+.U-flex{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    margin: 0 10px;
+}
+
+.U-hideL{
+    display: none !important;
+}
+
+.U-cart{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.U-cart2{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.U-cart2_1{
+    display: flex;
+    align-items: center;
+    width: 78%;
+}
+
+.U-cart2_1 > img {
+    width: 95px;
+    max-height: 100px;
+}
+
+.U-cart2_1_1{
+    display: flex;
+    align-items: center;
+    width: 73%;
+    justify-content: space-between;
+}
+
+.U-cartN{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.U-cartN > p:first-child{
+    font-weight: 500;
+}
+
+.U-cart2_2{
+    text-align: center;
+}
+
+.U-q{
+    display: flex;
+}
+
+.U-q > p{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+
+    background-color: #f8f8f8;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.U-q > p:nth-child(2){
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    cursor:default;
+}
+
+.U-cart button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    color: inherit;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+
+.U-cartT{
+    width: 10%;
+}
+
+.U-flex > h3{
+    width: 50%;
+}
+
+.U-flex > div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#U-blue{
+    background-color: #f4fafc;
+    font-weight: 300;
+    padding: 10px;
+}
+
+#U-blue > h3{
+    color: #9eafc5;
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0;
+}
+
+#U-blue > p{
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+#U-blue > button{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 15px 0 ;
+    color: white;
+    background-color: #12284c;
+    padding: 15px 50px;
+
+}
+
+#U-pay-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px 0 80px;
+}
+
+#U-pay-btn > p:first-child{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#U-pay-btn > p:nth-child(2){
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+}
+
+#U-pay-btn > p:last-child{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#U-pay-btn > button{
+    min-width: 400px;  
+    height: 45px;
+    margin: 5px 0;
+
+}
+
+#checkout{
+    background-color: #12284c;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    color: white;
+}
+#U-paypal{
+    background-color: #ffc439;
+    border: none;
+}
+#U-paypal > img{
+    width: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    #U-top > div{
+        margin: 20px auto;
+    }
+
+    .U-hideL{
+        display: block !important;
+    }
+
+    .U-hide{
+        display: none !important;
+    }
+
+    .U-cart{
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .U-cart2{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .U-cart2_1 > img {
+        width: 60px;
+    }
+    .U-cart2_1_1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .U-cart2_2{
+        margin: 10px 40px 0;
+    }
+
+    .U-cartT{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .U-pad{
+        padding: 0%  2% !important;
+    }
+
+    #U-pay-btn{
+        text-align: center;
+        align-items: unset;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .U-pad{
+        padding: 0%  6% !important;
+    }
+
+    #U-blue{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #U-blue > p{
+        width: 50%;
+    }
+    #U-blue > button{
+        margin: 0;
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
+
+/* for sliders ------- */
+
+#U-all_slide{
+    max-width: 100%;
+    /* background-color: #2f6dd8; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#U-all_slide > h2{
+    font-size: 28px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 20px;
+}
+.U-slider{
+    width: 80%;
+    margin: 20px auto 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.U-slider .slick-next:before{
+    content: ">";
+    color: #293c5d;
+    font-size: 40px;
+    margin: 0;
+    /* margin-left: 20px; */
+}
+
+.U-slider .slick-prev:before{
+    content: "<";
+    color: #293c5d;
+    font-size: 40px;
+    margin: 0;
+    /* margin-left: 40px; */
+}
+
+.U-slider::-webkit-scrollbar{
+    height: 0px;
+}
+
+.U-card{
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.U-card > img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Shopping Cart - bluemercury</title>
+
+    <link rel="stylesheet" href="./styles/cart.css" />
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/favicon_48x48.png?v=1591627636"
+      type="image/x-icon"
+    />
+
+    <!-- slick css---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/side_cart.css" />
+  </head>
+  <body>
+
+    <!-- just put this div in every page for side cart------------------ -->
+    <div id="U-sideCart">
+    </div>
+
+    <div id="U-top" class="U-pad">
+      <h2>YOUR BAG</h2>
+      <div>
+        <svg width="18" height="18">
+          <g transform="translate(0 -1)" fill="none" fill-rule="evenodd">
+            <rect fill="#FF8189" y="1" width="18" height="18" rx="9"></rect>
+            <text
+              font-family="Montserrat-SemiBold, Montserrat"
+              font-size="16"
+              font-weight="500"
+              fill="#FFF"
+            >
+              <tspan x="6.776" y="15">!</tspan>
+            </text>
+          </g>
+        </svg>
+        <p>Your Order Qualifies for Free Ground Shipping!</p>
+      </div>
+    </div>
+
+    <div id="U-gift" class="U-pad">
+      <h3>Your cart (<span id="cart_quant">0</span> items)</h3>
+      <div>
+        <input type="checkbox" id="IsGift" />
+        <div>
+          <p>IS THIS ORDER A GIFT</p>
+          <p>The price of your order will be hidden on the gift receipt.</p>
+          <button id="Gift-btn">
+            Show Gift Options
+            <svg class="giftAr" role="presentation" viewBox="0 0 21 11">
+              <polyline
+                fill="none"
+                stroke="currentColor"
+                points="0.5 0.5 10.5 10.5 20.5 0.5"
+                stroke-width="1.25"
+              ></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="U-items" class="U-pad"></div>
+
+    <div id="U-blue" class="U-pad">
+      <h3>BLUE<span style="color: #293c58">REWARDS</span></h3>
+      <p>
+        JOIN OUR FREE LOYALTY PROGRAM FOR FREE SHIPPING ON THIS - AND ALL -
+        ORDERS. PLUS, EARN $10 FOR EVERY $250 YOU SPEND!
+      </p>
+      <button>JOIN NOW</button>
+    </div>
+
+    <div id="U-pay-btn" class="U-pad">
+      <p>Subtotal <span id="total">$300</span></p>
+      <p>
+        Shipping, Taxes, Beauty Cards, and additional discounts applied at
+        checkout
+      </p>
+      <button id="checkout">CHECKOUT</button>
+      <button id="U-paypal">
+        <img
+          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c530.png"
+        />
+      </button>
+      <p>
+        4 interest-free payments of $76.25 with <b>Klarna</b>.
+        <span style="text-decoration: underline">Learn More</span>
+      </p>
+    </div>
+
+    <div id="U-all_slide">
+      <h2>BEST NAIL POLISH</h2>
+      <div class="U-slider" id="nail_polish">
+      </div>
+    </div>
+
+    <div id="U-all_slide">
+      <h2>NEW EYE LINERS</h2>
+      <div class="U-slider" id="eye_liner">        
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/side-cart.js" type="module"></script>
+
+<script src="./scripts/cart.js"></script>
+
+<!-- slick-carousel---- -->
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+
+<script src="./scripts/cart-slick.js"></script>
