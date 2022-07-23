@@ -1,5 +1,8 @@
 import { normal_images, hero_info, hero_images_t} from "../components/homepage_hero_image.js";
 
+let sliding;
+let showSlider;
+let saveIt;
 
 let hero_btns = document.querySelectorAll("#U-heroButtons > button");
 let hero_btns_t = document.querySelectorAll("#U-heroButtons-t > button");
@@ -102,4 +105,83 @@ setInterval(()=>{
   // console.log(i);
   i++;
 }, 3000)
+
+
+
+
+// sliders --------
+const url = `https://makeup-api.herokuapp.com/api/v1/products.json?`;
+
+let lipstick_url = url + `brand=maybelline&product_type=lipstick`
+let eye_liner_url = url + `product_type=eyeliner&brand=maybelline`
+let nail_polish_url = url + `product_type=nail_polish&brand=dior`
  
+
+sliding = (url, id) =>{
+  fetch(url).then((res)=>{
+    console.log("res", res);
+    return res.json();
+  }).then((data)=>{
+    console.log(data)
+    showSlider(data, id);
+  }).catch((err)=>{
+    console.log(err);
+  })
+}
+
+showSlider = (data, id) =>{
+  let area = document.getElementById(id);
+
+  data.forEach((el)=>{
+    let card = document.createElement("div");
+    card.setAttribute("class", "U-card");
+
+    let image = document.createElement("img");
+    image.src = el.api_featured_image;
+
+    let h4 = document.createElement("h4");
+    h4.innerText = el.name;
+    // h4.style = "width: 100px; text-overflow:eclipse;"
+
+    let p = document.createElement("p");
+    p.innerText = `$ ${el.price}`;
+
+    card.addEventListener("click", ()=>{
+      saveIt(el);
+    })
+    card.append(image, h4, p);
+
+    area.append(card);
+  })
+}
+
+
+sliding(lipstick_url, "lipstick")
+
+sliding(eye_liner_url, "eye_liner")
+
+sliding(nail_polish_url, "nail_polish")
+
+
+
+
+
+saveIt = (el) =>{
+  let pdt = {
+    name : el.name,
+    image : el.api_featured_image,
+    brand : el.brand,
+    price : el.price,
+    quantity : 1,
+  }
+
+  localStorage.setItem("product", JSON.stringify(pdt));
+}
+/*
+<div class="U-card">
+    <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5060725473294-1_470x.jpg?v=1657168470">
+
+    <h4>RODIAL</h4>
+    <p>$61</p>
+</div>
+*/
