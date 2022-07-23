@@ -11,7 +11,7 @@ body{
 font-family: 'Montserrat', sans-serif;
 }
 #header{
-    width: 100vw;
+    width: 100%;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 #navbar1{
@@ -558,7 +558,7 @@ margin-top: 10px;
 }
 #P-footer{
     margin: auto;
-    width: 100Vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -705,6 +705,7 @@ button:hover{
 #P-slider{
     display: flex;
     overflow-x: hidden;
+    width: 100% !important;
 }
 
 .P-slide{
