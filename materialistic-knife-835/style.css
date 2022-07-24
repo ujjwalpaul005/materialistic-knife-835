@@ -11,8 +11,18 @@ body{
     /* background-image: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwuf?ver=10fd"; */
     /* background: linear-gradient(45deg, #78b77e, #77b7a0 40%, #8cab9c 59%, #c2dae4 85%, #b76c51); */
 }
-
-
+.P-slide>p{
+    color: white;
+}
+#navbar{
+    margin-top: 20px;
+}
+#head2>p{
+    margin-top: 15px;
+}
+#head3>p{
+    margin: 20px 0 20px 0;
+}
 #container {
     /* border: 1px solid; */
    /* color: red; */
