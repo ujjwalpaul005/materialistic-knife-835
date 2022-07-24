@@ -5,6 +5,7 @@ import side_cart_func from "../components/side-cart-export.js"
 let side_cart;
 let increase;
 let decrease;
+let removeIt;
 
 document.getElementById("header").innerHTML=header();
 
@@ -33,6 +34,41 @@ document.getElementById("U-cart").addEventListener("click", ()=>{
     
 })
 
+document.getElementById("U-new").addEventListener("click", ()=>{
+    let x = "eyeliner";
+    localStorage.setItem("searchInput", JSON.stringify(x));
+    window.location.href = "../allProducts/collections.html";
+})
+
+document.getElementById("P-brand").addEventListener("click", ()=>{
+    window.location.href = "../materialistic-knife-835/brands.html";
+})
+
+document.getElementById("U-blue").addEventListener("click", ()=>{
+    window.location.href = "../materialistic-knife-835/bluewards.html";
+})
+
+document.getElementById("U-events").addEventListener("click", ()=>{
+    window.location.href = "../VIkas page done by nandlal/eventshai.html";
+})
+
+document.getElementById("U-explore").addEventListener("click", ()=>{
+    window.location.href = "../Latest on project/nvadakam.html";
+})
+
+document.getElementById("U-beauty").addEventListener("click", ()=>{
+    window.location.href = "../Latest on project/nope.html";
+})
+
+document.getElementById("U-index").addEventListener("click", ()=>{
+    console.log("done")
+    window.location.href = "../index.html";
+})
+
+document.getElementById("U-loc").addEventListener("click", ()=>{
+    console.log("done")
+    window.location.href = "../materialistic-knife-835/location.html";
+})
 
 function ShopPage(event){
     let divS=document.querySelector("#P-search-Div");

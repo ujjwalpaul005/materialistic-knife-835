@@ -718,6 +718,7 @@ button:hover{
     width: 150vw;
     font-size: 12px;
 }
+
 @keyframes scroll {
 0% {
 transform: translateX(0);
@@ -726,4 +727,10 @@ transform: translateX(0);
 100% {
 transform: translate(calc(-250px * 3));
 }
+}
+
+
+
+#P-footer2Box1 > p:last-child{
+    width: 30%;
 }

@@ -17,8 +17,8 @@ let header=()=>{
             <div id="left">
             <ul>
             <li id="P-ham" onclick="P_sidebarHam()"> <i class="fa-solid fa-bars"></i></li>
-            <li id="left1"> <i class="fa-solid fa-location-dot"></i> STORE & SPA LOCATOR</li>
-            <li id="left2"><img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury-logo_1216x@2x.png?v=1648743182" alt="Logo"></li>
+            <li id="left1"> <i class="fa-solid fa-location-dot"></i> <span  id="U-loc">STORE & SPA LOCATOR</span></li>
+            <li id="left2"><img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury-logo_1216x@2x.png?v=1648743182" alt="Logo"  id="U-index"></li>
         </ul>
         </div>
         <div id="right">
@@ -35,12 +35,12 @@ let header=()=>{
     <div id="navbar2">
         <ul>
             <li id="shop" onmouseover="ShopPage(event)" onmouseout="ShopPage2()">SHOP</li>
-            <li onmouseover="NewPage()" onmouseout="NewPage2()">NEW!</li>
-            <li onmouseover="BrandPage()" onmouseout="BrandPage2()">BRANDS</li>
-            <li onmouseover="ExplorePage()" onmouseout="ExplorePage2()">EXPLORE</li>
-            <li onmouseover="EventsPage()" onmouseout="EventsPage2()">EVENTS</li>
-            <li onmouseover="BluePage()" onmouseout="BluePage2()">BLUE REWARDS</li>
-            <li onmouseover="BeautyPage()" onmouseout="BeautyPage2()">BEAUTY ALFRESCO</li>
+            <li onmouseover="NewPage()" onmouseout="NewPage2()" id="U-new">NEW!</li>
+            <li onmouseover="BrandPage()" onmouseout="BrandPage2()" id="P-brand">BRANDS</li>
+            <li onmouseover="ExplorePage()" onmouseout="ExplorePage2()" id="U-explore">EXPLORE</li>
+            <li onmouseover="EventsPage()" onmouseout="EventsPage2()"  id="U-events">EVENTS</li>
+            <li onmouseover="BluePage()" onmouseout="BluePage2()"  id="U-blue">BLUE REWARDS</li>
+            <li onmouseover="BeautyPage()" onmouseout="BeautyPage2()"  id="U-beauty">BEAUTY ALFRESCO</li>
         </ul>
     </div>
     </div>

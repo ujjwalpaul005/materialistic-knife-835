@@ -727,3 +727,11 @@ transform: translateX(0);
 transform: translate(calc(-250px * 3));
 }
 }
+
+
+
+
+
+#P-footer2Box1 > p:last-child{
+    width: 30%;
+}
