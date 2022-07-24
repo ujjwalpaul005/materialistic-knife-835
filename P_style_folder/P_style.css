@@ -11,8 +11,8 @@ body{
 font-family: 'Montserrat', sans-serif;
 }
 #header{
-    width: 100vw;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 #navbar1{
     width: 100%;
@@ -556,12 +556,9 @@ margin-top: 10px;
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 #P-footer{
     margin: auto;
-    width: 100Vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -708,6 +705,7 @@ button:hover{
 #P-slider{
     display: flex;
     overflow-x: hidden;
+    width: 100% !important;
 }
 
 .P-slide{

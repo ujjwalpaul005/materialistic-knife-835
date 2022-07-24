@@ -17,6 +17,7 @@ button{
 
 #U-top{
     padding: 20px;
+    margin-top: 5%;
 }
 
 #U-top > div{
@@ -428,4 +429,12 @@ button{
     width: 200px;
     height: 200px;
     margin: auto;
+}
+.U-card > h4{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.U-card>p{
+    font-weight: 300 !important;
 }
