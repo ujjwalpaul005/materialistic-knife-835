@@ -1,0 +1,740 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Location</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/74fee79002.js" crossorigin="anonymous">
+
+    </script>
+
+</head>
+
+<style>
+
+   
+</style>
+
+
+<body onload="apend()">
+
+
+
+    <center>
+
+        <h4>find your store</h4>
+
+    </center>
+
+    <div id="navbar">
+
+
+        <button id="vikash"> 
+
+            <input id="fakebtn"  type="text" placeholder="Enter City & State s or ZIP "  >
+
+            <span onclick="getlocation()"><i class="fa-solid fa-location-crosshairs" style="margin-left: 50px;"></i></span>
+
+        </button>
+       
+   
+    <button id="btn" onclick="cityloc2()">
+
+        <span>
+
+        <i class="fa-solid fa-magnifying-glass"></i></span>
+
+    </button>
+    <!-- <button id="vikashlal"><a href="week.html">WEEKLY FORECAST</a></button> -->
+    <!-- <button id="vikashlal">@ map implemented by vikash lal</button> -->
+</div>
+
+<div id="head2">
+    <p>Your nearest location is 0.6 Miles Away and Closes at 7:00 PM today</p>
+</div>
+<div id="head3">
+    <p> <span><i class="fa-solid fa-location-pin"></i></span> VIEW MAP</p>
+    <p> <span><i class="fa-solid fa-filter"></i></span> FILTER</p>
+</div>
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+    <div id="container" >
+        <iframe id="gmap_canvas55"></iframe>
+    </div>
+
+
+
+    <!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+    <div id="main-1">
+
+<div id="temp">
+
+    <div id="temp-1">
+        <iframe id="gmap_canvas"></iframe>
+
+    </div>
+    <div id="temp-2">
+        <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+            
+            
+            <h5></h5>
+            <h5></h5>
+        
+              <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+    </div>
+</div>
+
+<div id="temp-12">
+    <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+
+    <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+    <div id="btn22">
+        <button class="btn11">VIEW STORE</button>
+        <button class="btn11">GET DIRECTION</button>
+    </div>
+</div>
+
+</div>
+
+
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas2"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas3"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas4"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas5"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas6"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas7"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas8"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas9"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+<!-- <div style="border: 1px solid; width: 90%; margin: auto;"></div> -->
+
+<div id="main-1">
+
+    <div id="temp">
+    
+        <div id="temp-1">
+            <iframe id="gmap_canvas1"></iframe>
+    
+        </div>
+        <div id="temp-2">
+            <p>0.6 MILES AWAY   CLOSES AT 7:00 PM <br> <br> Tribeca <br><br>ADDRESS <br>275 Greenwich Street <br>New York, NY, 10007, US </p>
+                
+                <p></p>
+                <h5></h5>
+                <h5></h5>
+            
+                <p><br>HOURS: <br>SUN : 11:00 AM - 6:00 PM <br> MON - SAT :  10:00 AM - 7:00 PM </br>CONTACT
+(646) 869-7327 </p>
+        </div>
+    </div>
+    
+    <div id="temp-12">
+        <p>AT THIS STORE <br><br> In-Store Shopping, Curbside Pickup, <br> Complimentary Ship To Home, Spa Services, <br> Same Day Delivery</p>
+    
+        <p>STORE INFO <br><br> In-store shopping, curbside pickup and complimentary ship to home. We're offering the services you feel most comforta...</p>
+
+        <div id="btn22">
+            <button class="btn11">VIEW STORE</button>
+            <button class="btn11">GET DIRECTION</button>
+        </div>
+
+    </div>
+    
+    </div>
+    
+    
+
+</body>
+</html>
+
+
+
+
+<script>
+
+    
+//Application Program Interface>>>>>API link
+
+
+    //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+    
+    //url="https://api.openweathermap.org/data/2.5/weather?q=deoghar&appid=c47bf400840de3be9d1f68cbb51de197"
+    
+    
+    //https://api.openweathermap.org/data/2.5/weather?q=pune&appid=4f1ac9715752672af37b0ece001dd714
+    
+    //lot&long  https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+    
+    // function btnsearch(){
+        
+    //     let city = document.getElementById('vikash').value;
+    
+    //     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c47bf400840de3be9d1f68cbb51de197`;
+         
+    //     fetch(url)
+    //     .then(function(res){
+    //         return res.json();
+    //         //console.log(res.json());
+    //     })
+    //     .then(function(res){
+    //      console.log(res);
+    //      cityloc(res)
+    //     }).catch(function(err){
+    //         console.log(err);
+    //     });
+    //     city.innerText = null;
+
+    //     // console.log("hhhh")
+    
+        
+    // }
+
+
+    function cityloc2(){
+        let city = document.getElementById('fakebtn').value;
+        let url55=`https://maps.google.com/maps?q=${city}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        // let url55=`https://maps.google.com/maps?q=deoghar&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+
+     
+        // let url="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        let container = document.getElementById("gmap_canvas55");
+
+        document.getElementById("container").style.display="block";
+
+    
+        // console.log(url)
+        container.src = url55;
+
+    }
+
+    
+
+    function cityloc(data){
+        // let city = document.getElementById('fakebtn').value;
+        let url55=`https://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        // let url55=`https://maps.google.com/maps?q=deoghar&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+
+     
+        // let url="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        let container = document.getElementById("gmap_canvas55");
+
+        document.getElementById("container").style.display="block";
+
+    
+        // console.log(url)
+        container.src = url55;
+
+    }
+    
+    
+    function apend() {
+        
+        let url=`https://maps.google.com/maps?q=Tribeca&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url2=`https://maps.google.com/maps?q=west village&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url3=`https://maps.google.com/maps?q=edina&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url4=`https://maps.google.com/maps?q=chelsea&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url5=`https://maps.google.com/maps?q=hoboken&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url6=`https://maps.google.com/maps?q=siliconvally&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url7=`https://maps.google.com/maps?q=chestnut&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url8=`https://maps.google.com/maps?q=wellesley&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url9=`https://maps.google.com/maps?q=derby&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url1=`https://maps.google.com/maps?q=legacy&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+
+      
+
+        let iframe=document.getElementById("gmap_canvas");
+
+        let iframe2=document.getElementById("gmap_canvas2");
+
+        let iframe3=document.getElementById("gmap_canvas3");
+
+        let iframe4=document.getElementById("gmap_canvas4");
+
+        let iframe5=document.getElementById("gmap_canvas5");
+
+        let iframe6=document.getElementById("gmap_canvas6");
+
+        let iframe7=document.getElementById("gmap_canvas7");
+
+        let iframe8=document.getElementById("gmap_canvas8");
+
+        let iframe9=document.getElementById("gmap_canvas9");
+
+        let iframe1=document.getElementById("gmap_canvas1");
+
+        iframe.src=url;
+
+        iframe2.src=url2;
+
+        iframe3.src=url3;
+
+        iframe4.src=url4;
+
+        iframe5.src=url5;
+        iframe6.src=url6;
+        iframe7.src=url7;
+        iframe8.src=url8;
+        iframe9.src=url9;
+        iframe1.src=url1;
+    }
+
+    function getlocation(){
+        navigator.geolocation.getCurrentPosition(success);
+        
+
+        function success(pos) {
+    const crd = pos.coords;
+
+    console.log("Your current position is:");
+    console.log(`Latitude : ${crd.latitude}`);
+    console.log(`Longitude: ${crd.longitude}`);
+    console.log(`More or less ${crd.accuracy} meters.`);
+    getWeatherOnLocation(crd.latitude, crd.longitude);
+
+}
+    }
+
+    
+
+    
+    
+
+    function getWeatherOnLocation(lat,lon){
+        
+        let city = document.getElementById('fakebtn').value;
+    
+        let url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=4f1ac9715752672af37b0ece001dd714`;
+         
+        fetch(url)
+        .then(function(res){
+            return res.json();
+            //console.log(res.json());
+        })
+        .then(function(res){
+         console.log(res);
+         
+         cityloc(res)
+        }).catch(function(err){
+            console.log(err);
+        });
+        // city.innerText = null;
+    
+        
+    }
+
+
+
+</script>
+
+
+
+<!-- 
+
+<script">
+    
+
+    //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+    
+    //url="https://api.openweathermap.org/data/2.5/weather?q=deoghar&appid=c47bf400840de3be9d1f68cbb51de197"
+    
+    
+    //https://api.openweathermap.org/data/2.5/weather?q=pune&appid=4f1ac9715752672af37b0ece001dd714
+    
+    //lot&long  https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+    
+    function btnsearch(){
+        
+        let city = document.getElementById('vikash').value;
+    
+        // let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c47bf400840de3be9d1f68cbb51de197`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=ranchi&appid=c47bf400840de3be9d1f68cbb51de197`;
+         
+        fetch(url)
+        .then(function(res){
+            return res.json();
+            //console.log(res.json());
+        })
+        .then(function(res){
+         console.log(res);
+         apend(res);
+        }).catch(function(err){
+            console.log(err);
+        });
+        city.innerText = null;
+    
+        
+    }
+    
+    
+    function apend(data) {
+        // let url=`https://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        let url=`https://maps.google.com/maps?q=ranchi&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        
+        let container = document.getElementById("container");
+    
+        container.innerHTML = null;
+        let h2=document.createElement("h2");
+    
+        h2.innerText=data.name;
+    
+        let temp=document.createElement("p");
+        temp.innerText =`TEMP---${(data.main.temp- 273.15).toFixed(1)}     C`;
+    
+        let mintemp=document.createElement("p");
+        mintemp.innerText =`MIN_TEMP---${(data.main.temp_min- 273.15).toFixed(1)}     C`;
+    
+        let maxtemp=document.createElement("p");
+        maxtemp.innerText =`MAX_TEMP---${(data.main.temp_max- 273.15).toFixed(1)}     C`;
+    
+        container.append(h2,temp,mintemp,maxtemp);
+        let iframe=document.getElementById("gmap_canvas");
+        iframe.src=url;
+        
+    }
+
+    function getlocation(){
+        navigator.geolocation.getCurrentPosition(success);
+
+        function success(pos) {
+    const crd = pos.coords;
+
+    console.log("Your current position is:");
+    console.log(`Latitude : ${crd.latitude}`);
+    console.log(`Longitude: ${crd.longitude}`);
+    console.log(`More or less ${crd.accuracy} meters.`);
+    getWeatherOnLocation(crd.latitude, crd.longitude);
+  }
+    }
+
+    
+
+    
+    
+
+    function getWeatherOnLocation(lat,lon){
+        
+        let city = document.getElementById('vikash').value;
+    
+        let url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=4f1ac9715752672af37b0ece001dd714`;
+         
+        fetch(url)
+        .then(function(res){
+            return res.json();
+            //console.log(res.json());
+        })
+        .then(function(res){
+         console.log(res);
+         apend(res);
+        }).catch(function(err){
+            console.log(err);
+        });
+        city.innerText = null;
+    
+        
+    }
+</script>
+ -->
