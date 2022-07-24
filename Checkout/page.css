@@ -519,3 +519,66 @@ textarea{
     font-weight: lighter;
     letter-spacing: .5px;
 }
+
+
+#M-sidebar{
+    max-width: calc(410px + 4%);
+    width: 100%;
+    padding-top: 4em;
+    padding-left: 4%;
+    left: 0;
+    background-position: left top;
+    float: right;
+    position: relative;
+    color: #525252;
+    box-shadow: 1px 0 0 rgb(248, 248, 248) inset;
+    /* border: 1px solid; */
+}
+#M-sub{
+    width: 100%;
+    height: calc(100vh - 8em);
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    overflow: hidden;
+    min-width: 100%;
+}
+
+.offer{
+    width: 100%;
+    padding: 0 0 21px;
+    display: flex;
+    zoom: 1;
+    float: left;
+}
+.offer input[type="text"],
+textarea{
+    max-width: 230px;
+    position: relative;
+    line-height: 19px;
+    padding: 10px;
+    background-color: #f8f8f8 !important;
+}
+.offer button{
+    width: auto;
+    margin-left: 0;
+    padding-left: 34px;
+    padding-right: 34px;
+    flex: auto;
+    font-family: 'Montserrat Semi Bold',sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: not-allowed;
+    position: relative;
+    color: white;
+    background-color: #12284c;
+}
+
+.cal{
+    padding: 21px 0;
+    border-top: 1px solid rgba(174,174,174,0.34);
+}
