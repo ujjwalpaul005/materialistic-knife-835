@@ -94,22 +94,22 @@ document.querySelector("#U-sideTop > p").addEventListener("click", () => {
 // location to be changed while merging------------------
 
 document.getElementById("open-bag").addEventListener("click", ()=>{
-    window.location.href = "./cart.html";
+    window.location.href = "../cart.html";
 })
 
 // ------------------------------------
 
-document.querySelector("#U-top > h2").addEventListener("click", ()=>{
+// document.querySelector("#U-top > h2").addEventListener("click", ()=>{
 
-    document.getElementById("U-sideCart").style = "display:block;"
+//     document.getElementById("U-sideCart").style = "display:block;"
 
-    if(window.innerWidth > 768){
-      document.body.style = "overflow-y:hidden;"
-    }
+//     if(window.innerWidth > 768){
+//       document.body.style = "overflow-y:hidden;"
+//     }
     
 
-    side_cart();
-  })
+//     side_cart();
+//   })
 
 
 
@@ -152,3 +152,5 @@ removeIt = (i) => {
 
   side_cart();
 };
+
+

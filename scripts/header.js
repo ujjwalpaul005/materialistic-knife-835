@@ -23,10 +23,10 @@ let header=()=>{
         </div>
         <div id="right">
             <ul>
-            <li><i class="fa-regular fa-heart"></i>WISHLIST</li>
+            <li id="U-wish"><i class="fa-regular fa-heart"></i>WISHLIST</li>
             <li onclick="P_SearchFun()"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</li>
-            <li><i class="fa-regular fa-circle-user"></i>SIGN IN/UP</li>
-            <li><i class="fa-solid fa-bag-shopping"></i>BAG</li>
+            <li id="U-sign"><i class="fa-regular fa-circle-user"></i>SIGN IN/UP</li>
+            <li id="U-cart"><i class="fa-solid fa-bag-shopping"></i>BAG</li>
         </ul>
     </div>
 </div>
