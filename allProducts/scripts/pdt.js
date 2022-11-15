@@ -35,8 +35,12 @@ dropdown = (el) =>{
 
     
 }
+// Only for live server not for netlify link
+ let url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=${stored}`;
 
-let url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=${stored}`;
+
+// ------------------THis link is for Netlify link ---------------
+// let url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${stored}`;
 
 let producting = (url) =>{
 
@@ -170,7 +174,12 @@ types.forEach((el)=>{
 })
 
 function category(type){
-    url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=${type}`;
+   // Only for live server not for netlify link
+  url = `http://makeup-api.herokuapp.com/api/v1/products.json?product_type=${type}`;
+
+    
+//     For netlify link 
+//     url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${type}`;
 
     producting(url);
     return url;
