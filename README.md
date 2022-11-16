@@ -50,7 +50,7 @@
 
 - ### **Integration**
 
-## ✅ **Netlify link** [Click Here To See Magic](https://sweet-marshmallow-d3fa9c.netlify.app/)
+## ✅ **Netlify link** [Click Here To See Magic](https://cerulean-brioche-712e23.netlify.app/)
 
 ## 🤝 **_Collaborators_**
 
