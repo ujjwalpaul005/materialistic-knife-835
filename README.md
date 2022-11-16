@@ -15,7 +15,7 @@
 <!-- ![image]() -->
 
 (![image](https://user-images.githubusercontent.com/105917542/202093343-9d218e63-c245-4b3b-88b6-c66cac691cdf.png)
-)
+
 
 
 
@@ -71,11 +71,11 @@
 - Linkedin: [Nandlal](https://www.linkedin.com/in/nandlal-saw-a2761822b/)
 - Email: (nandlalsaw789@gmail.com)
 
-# 👨🏻 **Monojit Mandal ** 
+# 👨🏻 **Monojit Mondal ** 
 - Github: [Monojit](https://github.com/ninja-mono1696)
 - Linkedin: [Monojit](https://www.linkedin.com/in/monojit1696/)
 
-# 👨🏻 **Priyanka Dhar ** 
+# 👧**Priyanka Dhar ** 
 - Github: [Priyanka](https://github.com/Priyanka4251)
 - Linkedin: [Priyanka](https://www.linkedin.com/in/nandlal-saw-a2761822b/)
 
