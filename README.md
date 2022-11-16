@@ -77,7 +77,7 @@
 
 # 👧**Priyanka Dhar ** 
 - Github: [Priyanka](https://github.com/Priyanka4251)
-- Linkedin: [Priyanka](https://www.linkedin.com/in/nandlal-saw-a2761822b/)
+- Linkedin: [Priyanka](https://www.linkedin.com/in/priyanka-dhar89/)
 
 
 
