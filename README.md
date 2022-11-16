@@ -1,12 +1,12 @@
 
-# Project Code -- devout-horse-8164
+# Project Code -- materialistic-knife-835
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# ENGAGEBAY.COM  (Clone)
+# BLUEMERCURY.COM  (Clone)
 
 
-**`EngageBay` is a smart pick for early-stage startups and small businesses looking for an integrated solution that doesn’t cost a fortune. It specializes in `marketing`, `sales`, `CRM`, and `customer service`..**
+**`BLUEMERCURY` is a chain of American `beauty` stores founded in 1999 by `Marla Malcolm Beck` and `Barry Beck` in Georgetown, Washington, D.C. The stores sell `cosmetics`, as well as in-store `facials` and `spa treatments`. In addition to selling products from other brands, the company developed its own M-61 skincare line in 2012 and Lune+Aster make-up line in 2015.**
 
 **User can `sign` in or `sign` up using `google sign in` or through `email verification`.**
 
