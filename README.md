@@ -1,20 +1,20 @@
-
 # Project Code -- materialistic-knife-835
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BLUEMERCURY.COM  (Clone)
 
 
-**`BLUEMERCURY` is a chain of American `beauty` stores founded in 1999 by `Marla Malcolm Beck` and `Barry Beck` in Georgetown, Washington, D.C. The stores sell `cosmetics`, as well as in-store `facials` and `spa treatments`. In addition to selling products from other brands, the company developed its own M-61 skincare line in 2012 and Lune+Aster make-up line in 2015.**
+**`blueMercury` is a Beauty Prodducts E-commerce Website which also Provides services likes Spa and Massage. It specializes in `marketing`, `sales`, `CRM`, and `customer service`..**
 
 **User can `sign` in or `sign` up using `google sign in` or through `email verification`.**
 
 ## Project look like this
 
-<!-- ![image](https://user-images.githubusercontent.com/105917542/201535630-643af584-1bf8-4d92-a566-2770f7990cdd.png) -->
+<!-- ![image]() -->
 
-![image](https://user-images.githubusercontent.com/105917542/201535789-10270393-cba4-4630-a940-d46977463b3d.png)
+![image]()
 
 
 
@@ -43,24 +43,41 @@
 ## Tool Used
 
 - ### **Frontend**
-- ### **Backend**
+- ### **Javascript**
+- ### **CSS**
+- ### **HTML**
 
 - ### **Integration**
 
-## ✅ **Netlify link** [Click Here To See Magic](https://vikash-fp-04-059.netlify.app/)
+## ✅ **Netlify link** [Click Here To See Magic](https://sweet-marshmallow-d3fa9c.netlify.app)
 
 ## 🤝 **_Collaborators_**
 
-# 🧔🏻 **Sheelu Kumar ** `Project Manager`
+# 🧔🏻 **Ujjwal Paul ** `Team Leader`
 
-- Github:[Sheelu Kumar](https://www.linkedin.com/in/sheeluofficial/)
-- Twitter:[Sheelu Kumar](https://www.linkedin.com/in/sheeluofficial/)
-- Linkedin:[Sheelu Kumar](https://www.linkedin.com/in/sheeluofficial/)
-- Email:[Sheelu Kumar](sheelu.kumar@masaischool.com)
+- Github:[Ujjwal Paul](https://github.com/ujjwalpaul005)
+- Linkedin:[Ujjwal Paul](https://www.linkedin.com/in/ujjwal-paul-204027235/)
 
-# 👨🏻 **Vikash Kumar Lal ** `Indevisual Project `
+
+# 👨🏻 **Vikash Kumar Lal ** 
 
 - Github: [Vikash](https://github.com/Therobo77)
 - Linkedin: [Vikash Lal](https://www.linkedin.com/in/vikash-lal-001420181/)
 - Email: (anshusinha8873@gmail.com)
+
+# 👨🏻 **Nandlal Saw ** 
+- Github: [Nandlal](https://github.com/NandlalShah955)
+- Linkedin: [Nandlal](https://www.linkedin.com/in/nandlal-saw-a2761822b/)
+- Email: (nandlalsaw789@gmail.com)
+
+# 👨🏻 **Monojit Mandal ** 
+- Github: [Monojit](https://github.com/ninja-mono1696)
+- Linkedin: [Monojit](https://www.linkedin.com/in/monojit1696/)
+
+# 👨🏻 **Priyanka Dhar ** 
+- Github: [Priyanka](https://github.com/Priyanka4251)
+- Linkedin: [Priyanka](https://www.linkedin.com/in/nandlal-saw-a2761822b/)
+
+
+
 
