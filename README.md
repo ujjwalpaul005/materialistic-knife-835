@@ -6,7 +6,7 @@
 # BLUEMERCURY.COM  (Clone)
 
 
-#### `blueMercury` is a Beauty Prodducts E-commerce Website which also Provides services likes `Spa and Massage`.
+### `blueMercury` is a Beauty Prodducts E-commerce Website which also Provides services likes `Spa and Massage`.
 
 **User can `sign` in or `sign` up using `google sign in` or through `email verification`.**
 
